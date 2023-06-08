@@ -1,0 +1,31 @@
+{
+  "name": "create-token-atm-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts --network",
+    "test": "hardhat test",
+    "verify": "hardhat verify --network"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dovanhung218/Create-Token-ATM-Machine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dovanhung218/Create-Token-ATM-Machine/issues"
+  },
+  "homepage": "https://github.com/dovanhung218/Create-Token-ATM-Machine#readme",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.14.1"
+  },
+  "devDependencies": {
+    "openzeppelin-solidity": "^3.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
